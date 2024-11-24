@@ -1,0 +1,18 @@
+[
+  {
+    "id": "e266210a-ea96-48d2-9e86-b51e34de9cca",
+    "title": "updated test article 2",
+    "text": "This is the updated content",
+    "author": "avtandil nariashvili",
+    "date": 1732473852778,
+    "comments": [
+      {
+        "id": "dc7bbb33-8a2f-4970-9132-2b1b4e2cc36a",
+        "articleId": "e266210a-ea96-48d2-9e86-b51e34de9cca",
+        "text": "rhis is a test comment",
+        "author": "another avto",
+        "date": 1732474053965
+      }
+    ]
+  }
+]

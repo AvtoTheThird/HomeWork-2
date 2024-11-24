@@ -1,0 +1,96 @@
+
+[2024-11-23T14:02:33.644Z]
+URL: /api/articles/read
+Body: {
+  "id": "89908b0d-502b-406e-b443-22615ac76284"
+}
+----------------------------------------
+
+[2024-11-23T14:12:41.586Z]
+URL: /sum
+Body: {
+  "a": 41,
+  "b": 1
+}
+----------------------------------------
+
+[2024-11-24T18:43:31.164Z]
+URL: /api/articles/create
+Body: {
+  "title": "test Article",
+  "text": "test article content",
+  "author": "avto naraishvili"
+}
+----------------------------------------
+
+[2024-11-24T18:44:12.778Z]
+URL: /api/articles/create
+Body: {
+  "title": "test Article 2",
+  "text": "test article content 2",
+  "author": "avto naraishvili"
+}
+----------------------------------------
+
+[2024-11-24T18:44:16.837Z]
+URL: /api/articles/readall
+Body: {}
+----------------------------------------
+
+[2024-11-24T18:45:08.300Z]
+URL: /api/articles/read
+Body: {
+  "id": "e266210a-ea96-48d2-9e86-b51e34de9cca"
+}
+----------------------------------------
+
+[2024-11-24T18:46:22.801Z]
+URL: /api/articles/update
+Body: {
+  "id": "e266210a-ea96-48d2-9e86-b51e34de9cca",
+  "title": "updated test article 2",
+  "text": "This is the updated content",
+  "author": "avtandil nariashvili"
+}
+----------------------------------------
+
+[2024-11-24T18:47:33.965Z]
+URL: /api/comments/create
+Body: {
+  "articleId": "e266210a-ea96-48d2-9e86-b51e34de9cca",
+  "text": "rhis is a test comment",
+  "author": "another avto"
+}
+----------------------------------------
+
+[2024-11-24T18:48:31.884Z]
+URL: /api/comments/create
+Body: {
+  "articleId": "e266210a-ea96-48d2-9e86-b51e34de9cca",
+  "text": "this is another test comment",
+  "author": "another avto"
+}
+----------------------------------------
+
+[2024-11-24T18:49:17.554Z]
+URL: /api/comments/delete
+Body: {
+  "id": "576fb6cf-6ce6-441e-9ff3-74417e1ca00d",
+  "articleId": "e266210a-ea96-48d2-9e86-b51e34de9cca"
+}
+----------------------------------------
+
+[2024-11-24T18:50:07.039Z]
+URL: /api/articles/delete
+Body: {
+  "id": "76b3f927-2b2a-4c89-9e49-9f2b58343897"
+}
+----------------------------------------
+
+[2024-11-24T18:52:42.164Z]
+URL: /api/articles/create
+Body: {
+  "title": "test Article 2",
+  "author": "avto naraishvili"
+}
+----------------------------------------
